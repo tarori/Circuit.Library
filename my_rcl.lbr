@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -721,21 +721,25 @@ grid 5.08 mm, diameter 13 mm</description>
 </package>
 <package name="D1608">
 <description>Metric Code Size 1608</description>
-<smd name="K" x="-0.875" y="0" dx="1.016" dy="0.762" layer="1" rot="R90"/>
-<smd name="A" x="0.875" y="0" dx="0.762" dy="1.016" layer="1"/>
-<text x="-0.8" y="0.65" size="0.8128" layer="25">&gt;NAME</text>
+<smd name="K" x="-0.9" y="0" dx="1" dy="0.8" layer="1" rot="R90"/>
+<smd name="A" x="0.9" y="0" dx="0.8" dy="1" layer="1"/>
+<text x="-0.8" y="0.9675" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-0.8" y="-1.65" size="0.8128" layer="27">&gt;VALUE</text>
-<wire x1="0.762" y1="0.381" x2="0.762" y2="-0.381" width="0.127" layer="51"/>
-<wire x1="0.762" y1="-0.381" x2="-0.762" y2="-0.381" width="0.127" layer="51"/>
-<wire x1="-0.762" y1="-0.381" x2="-0.762" y2="0.381" width="0.127" layer="51"/>
-<wire x1="-0.762" y1="0.381" x2="0.762" y2="0.381" width="0.127" layer="51"/>
-<wire x1="0.635" y1="0" x2="-0.254" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0" x2="-0.635" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0.254" x2="-0.254" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0" x2="-0.254" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="0.254" y1="0.254" x2="-0.254" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0" x2="0.254" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="0.254" y1="-0.254" x2="0.254" y2="0.254" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="0" x2="0.4" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="0" x2="0.2" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="0.2" y1="-0.4" x2="0.2" y2="0.4" width="0.127" layer="21"/>
+<wire x1="0.2" y1="0.4" x2="-0.2" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="0.4" x2="-0.2" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="0" x2="-0.2" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="0" x2="-0.2" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-0.8" x2="1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="-1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="0.7" x2="-1.5" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.5" y1="-0.7" x2="1.5" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="-0.7" x2="1.5" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="0.7" x2="-1.5" y2="0.7" width="0.0508" layer="39"/>
 </package>
 <package name="D2012">
 <description>Metric Code Size 2012</description>
