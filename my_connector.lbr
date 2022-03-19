@@ -3663,6 +3663,20 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <text x="-5.08" y="6.35" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-5.08" y="-1.27" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
+<package name="HEATSINK4">
+<wire x1="31" y1="15" x2="31" y2="-15" width="0.3048" layer="21"/>
+<wire x1="31" y1="-15" x2="-31" y2="-15" width="0.3048" layer="21"/>
+<wire x1="-31" y1="-15" x2="-31" y2="15" width="0.3048" layer="21"/>
+<wire x1="-31" y1="15" x2="31" y2="15" width="0.3048" layer="21"/>
+<pad name="HT1" x="-27" y="-11" drill="2.4"/>
+<pad name="HT2" x="27" y="-11" drill="2.4"/>
+<wire x1="-24" y1="-15.5" x2="-16" y2="-15.5" width="1" layer="21"/>
+<wire x1="-11" y1="-15.5" x2="-3" y2="-15.5" width="1" layer="21"/>
+<wire x1="3" y1="-15.5" x2="11" y2="-15.5" width="1" layer="21"/>
+<wire x1="16" y1="-15.5" x2="24" y2="-15.5" width="1" layer="21"/>
+<text x="-30" y="16" size="2.54" layer="25">&gt;NAME</text>
+<text x="18" y="16" size="2.54" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="USB">
@@ -3885,6 +3899,14 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <device name="-3" package="HEATSINK3">
 <connects>
 <connect gate="G$2" pin="HT" pad="HT1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-4" package="HEATSINK4">
+<connects>
+<connect gate="G$2" pin="HT" pad="HT1 HT2"/>
 </connects>
 <technologies>
 <technology name=""/>
